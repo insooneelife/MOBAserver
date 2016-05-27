@@ -1,0 +1,14 @@
+{
+	"name": "gun_1",
+		"data": 
+	{
+		"max_hp" : 0,
+		"max_mp" : 0,
+		"damage" : 40,
+		"mdamage" : 80,
+		"defence" : 0,
+		"mdefence" : 0,
+		"move_speed" : 0,
+		"price" : 3400
+	}
+}

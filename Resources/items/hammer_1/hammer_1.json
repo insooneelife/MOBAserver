@@ -1,0 +1,14 @@
+{
+	"name": "hammer_1",
+		"data": 
+	{
+		"max_hp" : 650,
+		"max_mp" : 0,
+		"damage" : 40,
+		"mdamage" : 0,
+		"defence" : 0,
+		"mdefence" : 0,
+		"move_speed" : 0,
+		"price" : 3100
+	}
+}

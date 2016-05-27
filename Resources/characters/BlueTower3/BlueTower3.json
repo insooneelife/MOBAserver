@@ -1,0 +1,39 @@
+{
+  "name": "BlueTower3",
+  "directions": 8,
+  "actions": {
+    "Neutral": 
+    { "frameSize": 20, "marginX": 0, "marginY": 50  },
+    "Death": 
+    { "frameSize": 20, "marginX": 0, "marginY": 50  },
+    "Attack1": 
+    { "frameSize": 20, "marginX": 0, "marginY": 50 },
+    "Casting": 
+    { "frameSize": 20, "marginX": 0, "marginY": 50 },
+    "Dead": 
+    { "frameSize": 1,  "marginX": 0, "marginY": 50  }
+  },
+		"data":
+	{
+		"hp" : 1000,
+		"mp" : 100,
+		"damage" : 150,
+		"mdamage" : 10,
+		"defence" : 10,
+		"mdefence" : 0,
+		"attack_range" : 450,
+		"view_range" : 550,
+		"move_speed" : 0,
+		"attack_speed" : 0,
+		"gold_worth" : 250,
+		"exp_worth" : 250
+	},
+		"strategy": 
+	{
+		"attack" : "FireBall",
+		"skill1" : "",
+		"skill2" : "",
+		"skill3" : "",
+		"skill4" : ""
+	}
+}

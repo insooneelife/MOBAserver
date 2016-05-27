@@ -1,0 +1,43 @@
+{
+  "name": "Spike",
+  "directions": 8,
+  "actions": {
+    "Neutral": 
+    { "frameSize": 8, "marginX": 0, "marginY": 10 },
+    "Death": 
+    { "frameSize": 14, "marginX": 0, "marginY": 20  },
+    "Attack1": 
+    { "frameSize": 13, "marginX": 0, "marginY": 23 },
+    "Casting": 
+    { "frameSize": 13, "marginX": 0, "marginY": 20 },
+    "GetHit": 
+    { "frameSize": 6, "marginX": 0, "marginY": 20 },
+    "Walk": 
+    { "frameSize": 9, "marginX": 0, "marginY": 10 },
+    "Dead": 
+    { "frameSize": 1,  "marginX": 0, "marginY": 0  }
+  },
+		"data":
+	{
+		"hp" : 200,
+		"mp" : 100,
+		"damage" : 16,
+		"mdamage" : 10,
+		"defence" : 5,
+		"mdefence" : 0,
+		"attack_range" : 250,
+		"view_range" : 270,
+		"move_speed" : 150,
+		"attack_speed" : 0,
+		"gold_worth" : 9,
+		"exp_worth" : 30
+	},
+		"strategy": 
+	{
+		"attack" : "IceSkill",
+		"skill1" : "",
+		"skill2" : "",
+		"skill3" : "",
+		"skill4" : ""
+	}
+}

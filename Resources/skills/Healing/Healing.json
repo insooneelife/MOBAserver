@@ -1,0 +1,27 @@
+{
+  "name": "Healing",
+  "data": {
+    "type": "TargetDirect",
+    "damage": -50,
+    "mana": 10,
+    "radius": 50,
+    "speed": 30,
+
+    "emitter_flag": false,
+    "explosion_flag": true,
+    
+    "period": 0,
+    "splash_radius": 0,
+    "survive_time": 1,
+
+    "emitter_emission_rate": 0,
+    "emitter_duration": 0,
+    "emitter_scale": 0,
+    "emitter_speed": 0,
+
+    "explosion_emission_rate": 100,
+    "explosion_duration": 1,
+    "explosion_scale": 0.3,
+    "explosion_speed": 5
+  }
+}

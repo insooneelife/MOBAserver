@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="staggered" renderorder="right-down" width="15" height="30" tilewidth="160" tileheight="80" staggeraxis="y" staggerindex="odd" nextobjectid="1">
+ <tileset firstgid="1" name="Diablo2_Court_Floor" tilewidth="160" tileheight="80" tilecount="75">
+  <image source="Diablo2_Court_Floor.png" width="800" height="1200"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="15" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYByGmAmNz4JHDbpadD4l9hJyA7lmUYpJdQupbiXW7bQOE1zqqe1/SuKMHLeQYw9yeidGP6l2sKDRhNTSMn2TEsZMWNQR8gM93U4NzISDjZ4uyDVzqGMADakB/w==
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,14 @@
+{
+	"name": "glove_2",
+		"data": 
+	{
+		"max_hp" : 0,
+		"max_mp" : 500,
+		"damage" : 25,
+		"mdamage" : 25,
+		"defence" : 65,
+		"mdefence" : 0,
+		"move_speed" : 0,
+		"price" : 2700
+	}
+}

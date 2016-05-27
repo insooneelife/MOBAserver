@@ -1,0 +1,43 @@
+{
+  "name": "Mummy",
+  "directions": 8,
+  "actions": {
+    "Neutral": 
+    { "frameSize": 12, "marginX": 0, "marginY": 41 },
+    "Death": 
+    { "frameSize": 20, "marginX": 0, "marginY": 30  },
+    "Attack1": 
+    { "frameSize": 16, "marginX": 0, "marginY": 22 },
+    "Casting": 
+    { "frameSize": 16, "marginX": 0, "marginY": 45 },
+    "GetHit": 
+    { "frameSize": 6, "marginX": 0, "marginY": 43 },
+    "Walk": 
+    { "frameSize": 18, "marginX": 0, "marginY": 40 },
+    "Dead": 
+    { "frameSize": 1,  "marginX": 0, "marginY": 0  }
+  },
+		"data":
+	{
+		"hp" : 1500,
+		"mp" : 100,
+		"damage" : 75,
+		"mdamage" : 10,
+		"defence" : 15,
+		"mdefence" : 0,
+		"attack_range" : 180,
+		"view_range" : 250,
+		"move_speed" : 150,
+		"attack_speed" : 0,
+		"gold_worth" : 58,
+		"exp_worth" : 150
+	},
+		"strategy": 
+	{
+		"attack" : "Dark",
+		"skill1" : "",
+		"skill2" : "",
+		"skill3" : "",
+		"skill4" : ""
+	}
+}

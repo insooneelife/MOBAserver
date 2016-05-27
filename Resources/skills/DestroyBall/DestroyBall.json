@@ -1,0 +1,27 @@
+{
+  "name": "DestroyBall",
+  "data": {
+    "type": "TargetSplashSkill",
+    "damage": 10,
+    "mana": 10,
+    "radius": 50,
+    "speed": 30,
+
+    "emitter_flag": true,
+    "explosion_flag": true,
+    
+    "period": 10,
+    "splash_radius": 100,
+    "survive_time": 5,
+
+    "emitter_emission_rate": 800,
+    "emitter_duration": 1.5,
+    "emitter_scale": 0.3,
+    "emitter_speed": 0,
+
+    "explosion_emission_rate": 200,
+    "explosion_duration": 1.5,
+    "explosion_scale": 0.1,
+    "explosion_speed": 150
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "FireCircle",
+  "data": {
+    "type": "SplashContinuous",
+    "damage": 10,
+    "mana": 10,
+    "radius": 50,
+    "speed": 30,
+
+    "emitter_flag": true,
+    "explosion_flag": false,
+
+    "period": 10,
+    "splash_radius": 100,
+    "survive_time": 5,
+
+    "emitter_emission_rate": 100,
+    "emitter_duration": 5,
+    "emitter_scale": 0.3,
+    "emitter_speed": 5,
+
+    "explosion_emission_rate": 0,
+    "explosion_duration": 0,
+    "explosion_scale": 0,
+    "explosion_speed": 0
+  }
+}

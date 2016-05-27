@@ -1,0 +1,14 @@
+{
+	"name": "book_2",
+		"data": 
+	{
+		"max_hp" : 0,
+		"max_mp" : 300,
+		"damage" : 0,
+		"mdamage" : 30,
+		"defence" : 0,
+		"mdefence" : 0,
+		"move_speed" : 0,
+		"price" : 900
+	}
+}

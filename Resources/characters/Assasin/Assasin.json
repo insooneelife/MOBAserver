@@ -1,0 +1,43 @@
+{
+  "name": "Assasin",
+  "directions": 16,
+  "actions": {
+    "Neutral": 
+    { "frameSize": 12, "marginX": 0, "marginY": 38 },
+    "Attack1": 
+    { "frameSize": 11, "marginX": 0, "marginY": 28 },
+    "Casting": 
+    { "frameSize": 17, "marginX": 0, "marginY": 37},
+    "GetHit": 
+    { "frameSize": 5, "marginX": 0, "marginY": 43 }, 
+    "Walk": 
+    { "frameSize": 8, "marginX": 0, "marginY": 37 },
+    "Death": 
+    { "frameSize": 13, "marginX": 0, "marginY": 0 },
+    "Dead" :
+    { "frameSize": 1, "marginX" : 0, "marginY" : 0 }
+  },
+		"data": 
+	{
+		"hp" : 5280,
+		"mp" : 2800,
+		"damage" : 570,
+		"mdamage" : 570,
+		"defence" : 22,
+		"mdefence" : 30,
+		"attack_range" : 350,
+		"view_range" : 600,
+		"move_speed" : 300,
+		"attack_speed" : 0,
+		"gold_worth" : 100,
+		"exp_worth" : 50
+	},
+		"strategy": 
+	{
+		"attack" : "IceBall2",
+		"skill1" : "FireColumn",
+		"skill2" : "OwnSpread",
+		"skill3" : "FireBall",
+		"skill4" : "IceBall2"
+	}
+}

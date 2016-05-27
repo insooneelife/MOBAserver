@@ -1,0 +1,17 @@
+.cocos-project.json
+CMakeLists.txt
+cocos2d/
+proj.android-studio/
+proj.android/
+proj.ios_mac/
+proj.linux/
+proj.win10/
+proj.win32/Debug*
+proj.win32/Release*
+proj.win8.1-universal/
+.vs/TestGame/v14/.suo
+proj.win32/TestGame.sdf
+proj.win32/.vs/TestGame/v14/.suo
+proj.win32/TestGame.vcxproj
+proj.win32/TestGame.vcxproj.filters
+proj.win32/TestGame.opensdf

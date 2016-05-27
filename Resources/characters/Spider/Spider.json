@@ -1,0 +1,43 @@
+{
+  "name": "Spider",
+  "directions": 8,
+  "actions": {
+    "Neutral": 
+    { "frameSize": 13, "marginX": 0, "marginY": 25 },
+    "Death": 
+    { "frameSize": 17, "marginX": 0, "marginY": 48  },
+    "Attack1": 
+    { "frameSize": 11, "marginX": 0, "marginY": 28 },
+    "Casting": 
+    { "frameSize": 11, "marginX": 0, "marginY": 28 },
+    "GetHit": 
+    { "frameSize": 7, "marginX": 0, "marginY": 43 },
+    "Walk": 
+    { "frameSize": 12, "marginX": 0, "marginY": 30 },
+    "Dead": 
+    { "frameSize": 1,  "marginX": 0, "marginY": 0  }
+  },
+		"data":
+	{
+		"hp" : 100,
+		"mp" : 100,
+		"damage" : 20,
+		"mdamage" : 10,
+		"defence" : 5,
+		"mdefence" : 0,
+		"attack_range" : 350,
+		"view_range" : 400,
+		"move_speed" : 150,
+		"attack_speed" : 0,
+		"gold_worth" : 30,
+		"exp_worth" : 15
+	},
+		"strategy": 
+	{
+		"attack" : "Melee",
+		"skill1" : "",
+		"skill2" : "",
+		"skill3" : "",
+		"skill4" : ""
+	}
+}

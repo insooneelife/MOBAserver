@@ -1,0 +1,12 @@
+# 마우스 포인터와 world의 좌표 이상 버그
+# write의 버퍼로 사용하는 deque의 문제
+# server에서 ref cnt가 증가하는 속도가 더 빨라서 누적되는 버그
+# socket close문제.. post후에 콜백을 실행시켜줄 객체가 이미 제거되어 있는 경우
+# agent가 제거되었지만 cellspace에서 제거되지 않은 경우 -> cellspace에 remove를 만들어 해결
+# world is not set assert, 시뮬레이팅이 힘들어 아직 해결되지 않음, 예상, popScene이 여러번 되는게 문제인 것 같음
+# client가 꺼지면 서버가 죽는 이유
+# decodePacketSelectName이 게임 도중 호출됨 -> lock free queue의 fail과 연관이 있음
+# 컴퓨터 메모리가 부족하면 화면 그래픽이 깨짐
+# CollisionArea, GraphNode CellSpace에서 제거하기
+# .wav 파일을 강제로 mp3로 바꾸면 x
+# debug에 .wav가 있을 수 있음

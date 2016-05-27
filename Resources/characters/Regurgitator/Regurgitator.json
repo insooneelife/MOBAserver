@@ -1,0 +1,43 @@
+{
+  "name": "Regurgitator",
+  "directions": 8,
+  "actions": {
+    "Neutral": 
+    { "frameSize": 8, "marginX": 0, "marginY": 35 },
+    "Death": 
+    { "frameSize": 20, "marginX": 0, "marginY": 48  },
+    "Attack1": 
+    { "frameSize": 16, "marginX": 0, "marginY": 28 },
+    "Casting": 
+    { "frameSize": 16, "marginX": 0, "marginY": 28 },
+    "GetHit": 
+    { "frameSize": 6, "marginX": 0, "marginY": 43 },
+    "Walk": 
+    { "frameSize": 12, "marginX": 0, "marginY": 40 },
+    "Dead": 
+    { "frameSize": 1,  "marginX": 0, "marginY": 0  }
+  },
+		"data":
+	{
+		"hp" : 900,
+		"mp" : 100,
+		"damage" : 45,
+		"mdamage" : 15,
+		"defence" : 5,
+		"mdefence" : 0,
+		"attack_range" : 270,
+		"view_range" : 300,
+		"move_speed" : 150,
+		"attack_speed" : 0,
+		"gold_worth" : 60,
+		"exp_worth" : 200
+	},
+		"strategy": 
+	{
+		"attack" : "Poison",
+		"skill1" : "",
+		"skill2" : "",
+		"skill3" : "",
+		"skill4" : ""
+	}
+}

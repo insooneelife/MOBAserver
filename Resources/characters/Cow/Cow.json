@@ -1,0 +1,43 @@
+{
+  "name": "Cow",
+  "directions": 8,
+  "actions": {
+    "Neutral": 
+    { "frameSize": 10, "marginX": 0, "marginY": 50 },
+    "Death": 
+    { "frameSize": 14, "marginX": 0, "marginY": 51  },
+    "Attack1": 
+    { "frameSize": 19, "marginX": 0, "marginY": 45 },
+    "Casting": 
+    { "frameSize": 19, "marginX": 0, "marginY": 53 },
+    "GetHit": 
+    { "frameSize": 5, "marginX": 0, "marginY": 47 },
+    "Walk": 
+    { "frameSize": 8, "marginX": 0, "marginY": 55 },
+    "Dead": 
+    { "frameSize": 1,  "marginX": 0, "marginY": 0  }
+  },
+		"data":
+	{
+		"hp" : 800,
+		"mp" : 100,
+		"damage" : 40,
+		"mdamage" : 10,
+		"defence" : 10,
+		"mdefence" : 0,
+		"attack_range" : 40,
+		"view_range" : 250,
+		"move_speed" : 150,
+		"attack_speed" : 0,
+		"gold_worth" : 40,
+		"exp_worth" : 120
+	},
+		"strategy": 
+	{
+		"attack" : "Melee",
+		"skill1" : "",
+		"skill2" : "",
+		"skill3" : "",
+		"skill4" : ""
+	}
+}

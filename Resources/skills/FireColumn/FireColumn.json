@@ -1,0 +1,27 @@
+{
+  "name": "FireColumn",
+  "data": {
+    "type": "SplashContinuous",
+    "damage": 10,
+    "mana": 10,
+    "radius": 50,
+    "speed": 30,
+
+    "emitter_flag": true,
+    "explosion_flag": true,
+    
+    "period": 10,
+    "splash_radius": 100,
+    "survive_time": 100,
+
+    "emitter_emission_rate": 50,
+    "emitter_duration": 5,
+    "emitter_scale": 0.8,
+    "emitter_speed": 5,
+
+    "explosion_emission_rate": 50,
+    "explosion_duration": 5,
+    "explosion_scale": 0.4,
+    "explosion_speed": 10
+  }
+}

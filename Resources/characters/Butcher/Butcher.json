@@ -1,0 +1,43 @@
+{
+  "name": "Butcher",
+  "directions": 8,
+  "actions": {
+    "Neutral": 
+    { "frameSize": 10, "marginX": 0, "marginY": 50 },
+    "Death": 
+    { "frameSize": 15, "marginX": 0, "marginY": 51  },
+    "Attack1": 
+    { "frameSize": 12, "marginX": 0, "marginY": 45 },
+    "Casting": 
+    { "frameSize": 12, "marginX": 0, "marginY": 53 },
+    "GetHit": 
+    { "frameSize": 6, "marginX": 0, "marginY": 47 },
+    "Walk": 
+    { "frameSize": 12, "marginX": 0, "marginY": 55 },
+    "Dead": 
+    { "frameSize": 1,  "marginX": 0, "marginY": 0  }
+  },
+		"data":
+	{
+		"hp" : 445,
+		"mp" : 100,
+		"damage" : 12,
+		"mdamage" : 12,
+		"defence" : 0,
+		"mdefence" : 0,
+		"attack_range" : 40,
+		"view_range" : 250,
+		"move_speed" : 150,
+		"attack_speed" : 0,
+		"gold_worth" : 30,
+		"exp_worth" : 20
+	},
+		"strategy": 
+	{
+		"attack" : "Melee",
+		"skill1" : "",
+		"skill2" : "",
+		"skill3" : "",
+		"skill4" : ""
+	}
+}

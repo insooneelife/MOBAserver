@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="20" height="40" tilewidth="160" tileheight="80" nextobjectid="1">
+ <tileset firstgid="1" name="cliff1" tilewidth="160" tileheight="512" tilecount="13">
+  <image source="tile_cliff1.png" width="2080" height="512"/>
+ </tileset>
+ <tileset firstgid="14" name="cliff2" tilewidth="160" tileheight="480" tilecount="13">
+  <image source="tile_cliff2.png" width="2080" height="480"/>
+ </tileset>
+ <tileset firstgid="27" name="cliff_corner" tilewidth="160" tileheight="372" tilecount="1">
+  <image source="tile_cliff_corner.png" width="160" height="372"/>
+ </tileset>
+ <tileset firstgid="28" name="stone" tilewidth="160" tileheight="80" tilecount="35">
+  <image source="tile_stone.png" width="800" height="639"/>
+ </tileset>
+ <tileset firstgid="63" name="wall_tree" tilewidth="160" tileheight="257" tilecount="7">
+  <image source="tile_wall_tree.png" width="1120" height="257"/>
+ </tileset>
+ <tileset firstgid="70" name="tree1" tilewidth="160" tileheight="512" tilecount="18">
+  <image source="tree1.png" width="2880" height="512"/>
+ </tileset>
+ <layer name="Tile Layer 2" width="20" height="40">
+  <data encoding="base64" compression="zlib">
+   eJyzYmBgsAJibSiNjNHFsKkZ6dhwELhhFI/iUTyKR/EoHsWjeBSP4qGCAfY1tQs=
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="20" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzNlusOgjAMhasm3k38p8anUbwD+kfg/d/ENa5JQ8Y2wkngJM1KN07gYxs7EtHBxN7EzsS24/WEMLqYuJrYgPxYiYk12G8F8pL3XYL8WPx8CH7ybKyh8hM/JD9WW363hrowbMPvHugvKJ7fI9Bf2hbBr1I5cv0yW9T8E7Y+fkWkl2bbxK9sqIfk4lc5arFC8TubOBF2/bL6Xr8hIfe/jLrzS22b2xbB763yofLrc/417fF18fcN8Qvt8fr7hs4voT2+Po79xpH3xAq9fhdAL37fOdCP/w8zm386esn/YapqmWf809P3VbnMv9w10Orl6dNifiP67w+JDZacbfg6rdX02dGV/wB7PRZJ
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,43 @@
+{
+  "name": "Sandmaggot",
+  "directions": 8,
+  "actions": {
+    "Neutral": 
+    { "frameSize": 8, "marginX": 0, "marginY": 26 },
+    "Death": 
+    { "frameSize": 16, "marginX": 0, "marginY": 48  },
+    "Attack1": 
+    { "frameSize": 18, "marginX": 0, "marginY": 28 },
+    "Casting": 
+    { "frameSize": 18, "marginX": 0, "marginY": 27 },
+    "GetHit": 
+    { "frameSize": 6, "marginX": 0, "marginY": 43 },
+    "Walk": 
+    { "frameSize": 8, "marginX": 0, "marginY": 30 },
+    "Dead": 
+    { "frameSize": 1,  "marginX": 0, "marginY": 0  }
+  },
+		"data":
+	{
+		"hp" : 1500,
+		"mp" : 100,
+		"damage" : 70,
+		"mdamage" : 10,
+		"defence" : 10,
+		"mdefence" : 0,
+		"attack_range" : 270,
+		"view_range" : 300,
+		"move_speed" : 150,
+		"attack_speed" : 0,
+		"gold_worth" : 58,
+		"exp_worth" : 150
+	},
+		"strategy": 
+	{
+		"attack" : "Melee",
+		"skill1" : "",
+		"skill2" : "",
+		"skill3" : "",
+		"skill4" : ""
+	}
+}

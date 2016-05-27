@@ -1,0 +1,55 @@
+{
+  "name": "Diablo",
+  "directions": 8,
+  "actions": {
+    "Neutral": 
+    { "frameSize": 12, "marginX": 0, "marginY": 40  },
+    "Attack1": 
+    { "frameSize": 16, "marginX": 0, "marginY": 48  },
+    "Attack2": 
+    { "frameSize": 20, "marginX": 0, "marginY": 55  },
+    "Casting": 
+    { "frameSize": 17, "marginX": 0, "marginY": 66  },
+    "GetHit": 
+    { "frameSize": 6,  "marginX": 0, "marginY": 77  },
+    "Walk": 
+    { "frameSize": 12, "marginX": 0, "marginY": 60  },
+    "Dead": 
+    { "frameSize": 1,  "marginX": 0, "marginY": 0  },
+    "Death": 
+    { "frameSize": 13,  "marginX": 0, "marginY": 0  },
+    "Run": 
+    { "frameSize": 22, "marginX": 0, "marginY": 68  },
+    "Special1": 
+    { "frameSize": 18, "marginX": 0, "marginY": 68  },
+    "Special2": 
+    { "frameSize": 16, "marginX": 0, "marginY": 68  },
+    "Special3": 
+    { "frameSize": 16, "marginX": 0, "marginY": 68  },
+    "Special4": 
+    { "frameSize": 15, "marginX": 0, "marginY": 68  }
+  },
+		"data":
+	{
+		"hp" : 5000,
+		"mp" : 100,
+		"damage" : 150,
+		"mdamage" : 10,
+		"defence" : 5,
+		"mdefence" : 0,
+		"attack_range" : 100,
+		"view_range" : 600,
+		"move_speed" : 200,
+		"attack_speed" : 0,
+		"gold_worth" : 500,
+		"exp_worth" : 500
+	},
+		"strategy": 
+	{
+		"attack" : "Melee",
+		"skill1" : "",
+		"skill2" : "",
+		"skill3" : "",
+		"skill4" : ""
+	}
+}

@@ -1,0 +1,2071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="staggered" renderorder="right-down" width="20" height="40" tilewidth="160" tileheight="80" staggeraxis="y" staggerindex="odd" nextobjectid="798">
+ <tileset firstgid="1" name="Diablo2_Court_Floor" tilewidth="160" tileheight="80" tilecount="75">
+  <image source="Diablo2_Court_Floor.png" width="800" height="1200"/>
+ </tileset>
+ <tileset firstgid="76" name="tile_cliff2" tilewidth="160" tileheight="480" tilecount="13">
+  <image source="tile_cliff2.png" width="2080" height="480"/>
+ </tileset>
+ <tileset firstgid="89" name="tile_cliff1" tilewidth="160" tileheight="512" tilecount="13">
+  <image source="tile_cliff1.png" width="2080" height="512"/>
+ </tileset>
+ <tileset firstgid="102" name="tile_cliff_corner" tilewidth="160" tileheight="372" tilecount="1">
+  <image source="tile_cliff_corner.png" width="160" height="372"/>
+ </tileset>
+ <tileset firstgid="103" name="tree1" tilewidth="160" tileheight="512" tilecount="18">
+  <image source="tree1.png" width="2880" height="512"/>
+ </tileset>
+ <tileset firstgid="121" name="tile_stone" tilewidth="160" tileheight="80" tilecount="35">
+  <image source="tile_stone.png" width="800" height="639"/>
+ </tileset>
+ <tileset firstgid="156" name="structure_tree1" tilewidth="330" tileheight="343" tilecount="1">
+  <image source="structures/tree1.png" width="330" height="343"/>
+ </tileset>
+ <tileset firstgid="157" name="tree2" tilewidth="345" tileheight="350" tilecount="1">
+  <image source="structures/tree2.png" width="345" height="350"/>
+ </tileset>
+ <tileset firstgid="158" name="rock1" tilewidth="91" tileheight="42" tilecount="1">
+  <image source="structures/rock1.png" width="91" height="42"/>
+ </tileset>
+ <layer name="tile_layer" width="20" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1UsKgDAMRdGuINmVn/1vSCdCCK0lyQtEbOFOHBweSrG1+WFR9HDL9SJmz8rwPOableFZzKhFDm/kkvIsVs9jsCf3Wa3ZPo+n3WdfxJIegz2EpfetcjuB1n53gPdtBd5R5VB3bu2r2df20eC51UP960j1l++C6AJrMSdI
+  </data>
+ </layer>
+ <layer name="left_cliff_layer" width="20" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt0EkNACAQwECUcuPfAlkLm4bw6Ajoo6W8teDeBFsHbIUNtvyW47ecn78NsBU62GpgK1S4J0nSDy7H7wbu
+  </data>
+ </layer>
+ <layer name="right_cliff_layer" width="20" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEJACAMBME0qD5EY/+VSHrYCMGbAvZxRM3e8oTmhnsL7oUO9xrcCwPuZex44N6v96gdGfS71o6MCv/jhHsiIpVcTEgHgw==
+  </data>
+ </layer>
+ <objectgroup name="structures">
+  <object id="609" name="tree2" gid="157" x="-76.5" y="958" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="610" name="tree2" gid="157" x="51.5" y="1143" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="611" name="tree2" gid="157" x="-82.5" y="1330" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="612" name="tree2" gid="157" x="-74.5" y="1668" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="613" name="tree2" gid="157" x="268.5" y="1832" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="614" name="tree2" gid="157" x="319.5" y="1669" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="615" name="tree2" gid="157" x="580.5" y="1815" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="616" name="tree2" gid="157" x="699.5" y="1672" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="617" name="tree2" gid="157" x="824.5" y="1804" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="618" name="tree2" gid="157" x="1017.5" y="1615" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="619" name="tree2" gid="157" x="1208.5" y="1682" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="620" name="tree2" gid="157" x="1253.5" y="1807" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="621" name="tree2" gid="157" x="1395.5" y="1675" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="622" name="tree2" gid="157" x="1487.5" y="1792" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="623" name="tree2" gid="157" x="1761.5" y="1769" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="624" name="tree2" gid="157" x="1722.5" y="1649" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="625" name="tree2" gid="157" x="1926.5" y="1700" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="626" name="tree2" gid="157" x="2150.5" y="1795" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="627" name="tree2" gid="157" x="2101.5" y="1625" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="629" name="tree2" gid="157" x="2458.5" y="1777" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="630" name="tree2" gid="157" x="2559.5" y="1665" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="631" name="tree2" gid="157" x="2820.5" y="1737" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="632" name="tree2" gid="157" x="2991.5" y="1697" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="633" name="tree2" gid="157" x="3059.5" y="1528" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="634" name="tree2" gid="157" x="3039.5" y="1134" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="635" name="tree1" gid="156" x="-128" y="1093.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="636" name="tree1" gid="156" x="-114" y="1437.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="637" name="tree1" gid="156" x="-109" y="1735.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="638" name="tree1" gid="156" x="97" y="1736.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="639" name="tree1" gid="156" x="433" y="1746.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="640" name="tree1" gid="156" x="533" y="1611.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="641" name="tree1" gid="156" x="840" y="1576.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="642" name="tree1" gid="156" x="926" y="1661.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="643" name="tree1" gid="156" x="1060" y="1759.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="644" name="tree1" gid="156" x="1259" y="1547.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="645" name="tree1" gid="156" x="1490" y="1567.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="646" name="tree1" gid="156" x="1621" y="1717.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="647" name="tree1" gid="156" x="1975" y="1770.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="648" name="tree1" gid="156" x="2318" y="1712.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="649" name="tree1" gid="156" x="2361" y="1617.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="650" name="tree1" gid="156" x="2665" y="1569.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="651" name="tree1" gid="156" x="2645" y="1783.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="652" name="tree1" gid="156" x="3107" y="1693.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="653" name="tree1" gid="156" x="3003" y="1407.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="654" name="tree1" gid="156" x="3068" y="1271.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="659" name="tree2" gid="157" x="107.5" y="1573" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="660" name="tree2" gid="157" x="2839.5" y="1544" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="794" name="tree1" gid="156" x="1216" y="793.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+  <object id="795" name="tree2" gid="157" x="1160.5" y="924" width="345" height="350">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="70"/>
+    <property name="radius" value="40"/>
+   </properties>
+  </object>
+  <object id="793" name="tree1" gid="156" x="1110" y="687.5" width="330" height="343">
+   <properties>
+    <property name="marginX" value="0"/>
+    <property name="marginY" value="60"/>
+    <property name="radius" value="35"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="structures_no_image">
+  <object id="757" type="Circle" x="3162" y="823" width="250" height="250">
+   <ellipse/>
+  </object>
+  <object id="760" type="Circle" x="3210" y="1034" width="250" height="250">
+   <ellipse/>
+  </object>
+  <object id="761" type="Circle" x="3085" y="1230" width="250" height="250">
+   <ellipse/>
+  </object>
+  <object id="762" type="Circle" x="1907" y="1438" width="400" height="400">
+   <ellipse/>
+  </object>
+  <object id="763" type="Circle" x="2072" y="1392" width="400" height="400">
+   <ellipse/>
+  </object>
+  <object id="772" type="Polygon" x="2597" y="645">
+   <polyline points="0,0 66,67 141,80 154,111 325,157 379,232 453,238 469,268 630,294 612,-329 1,-2"/>
+  </object>
+  <object id="773" type="Polygon" x="2035" y="403">
+   <polyline points="0,0 57,1 70,32 233,76 306,150 382,164 400,194 594,245 559,-392 0,-3"/>
+  </object>
+  <object id="775" type="Polygon" x="1365" y="76">
+   <polyline points="0,0 92,12 108,42 187,49 322,112 328,153 402,168 451,213 590,243 672,322 1198,6 -29,-65 -1,-1"/>
+  </object>
+  <object id="776" type="Polygon" x="712" y="387">
+   <polyline points="0,0 118,-15 212,-44 311,-151 531,-202 702,-371 -566,-379 -1,0"/>
+  </object>
+  <object id="779" type="Polygon" x="3" y="758">
+   <polyline points="0,0 48,3 90,-61 205,-51 447,-229 527,-222 609,-251 719,-396 30,-709 0,1"/>
+  </object>
+  <object id="781" type="Polygon" x="18" y="682">
+   <polyline points="0,0 -1,556 151,514 231,371 272,338 48,2 2,0"/>
+  </object>
+  <object id="782" type="Polygon" x="32" y="1617">
+   <polyline points="0,0 543,2 541,-147 121,-354 106,-426 1,-3"/>
+  </object>
+  <object id="783" type="Polygon" x="558" y="1611">
+   <polyline points="0,0 780,3 629,-251 417,-135 194,-219 -9,-130 2,-2"/>
+  </object>
+  <object id="784" type="Polygon" x="1271" y="1599">
+   <polyline points="0,0 672,11 764,-159 597,-211 446,-137 154,-202 -79,-170 0,0"/>
+  </object>
+  <object id="785" type="Polygon" x="2436" y="1501">
+   <polyline points="0,0 80,103 490,124 720,-120 542,-207 348,-76 264,-105 2,-2"/>
+  </object>
+  <object id="796" type="Polygon" x="1233" y="514">
+   <polyline points="0,0 -22,95 76,163 19,324 117,388 220,324 174,149 112,8 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="edges">
+  <object id="155" x="506" y="600">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="1"/>
+    <property name="to" value="3"/>
+   </properties>
+   <polyline points="0,0 176,-10"/>
+  </object>
+  <object id="164" x="2240" y="1016">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="17"/>
+    <property name="to" value="16"/>
+   </properties>
+   <polyline points="0,0 41,-148"/>
+  </object>
+  <object id="165" x="2588" y="1047">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="19"/>
+    <property name="to" value="18"/>
+   </properties>
+   <polyline points="0,0 10,-166"/>
+  </object>
+  <object id="167" x="604" y="730">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="0"/>
+    <property name="to" value="2"/>
+   </properties>
+   <polyline points="0,0 114,-55"/>
+  </object>
+  <object id="169" x="774" y="769">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="5"/>
+    <property name="to" value="4"/>
+   </properties>
+   <polyline points="0,0 118,-140"/>
+  </object>
+  <object id="170" x="505" y="592">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="1"/>
+    <property name="to" value="0"/>
+   </properties>
+   <polyline points="0,0 95,132"/>
+  </object>
+  <object id="172" x="775" y="774">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="5"/>
+    <property name="to" value="6"/>
+   </properties>
+   <polyline points="0,0 110,100"/>
+  </object>
+  <object id="174" x="897" y="634">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="4"/>
+    <property name="to" value="7"/>
+   </properties>
+   <polyline points="0,0 131,167"/>
+  </object>
+  <object id="175" x="884" y="874">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="6"/>
+    <property name="to" value="7"/>
+   </properties>
+   <polyline points="0,0 141,-74"/>
+  </object>
+  <object id="177" x="884" y="870">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="6"/>
+    <property name="to" value="8"/>
+   </properties>
+   <polyline points="0,0 133,73"/>
+  </object>
+  <object id="178" x="721" y="676">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="2"/>
+    <property name="to" value="5"/>
+   </properties>
+   <polyline points="0,0 55,97"/>
+  </object>
+  <object id="179" x="685" y="595">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="3"/>
+    <property name="to" value="4"/>
+   </properties>
+   <polyline points="0,0 208,37"/>
+  </object>
+  <object id="180" x="688" y="592">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="3"/>
+    <property name="to" value="21"/>
+   </properties>
+   <polyline points="0,0 415,20"/>
+  </object>
+  <object id="184" x="1671" y="428.78">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="12"/>
+    <property name="to" value="13"/>
+   </properties>
+   <polyline points="0,0 155,6.22"/>
+  </object>
+  <object id="185" x="1457" y="632">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="11"/>
+    <property name="to" value="55"/>
+   </properties>
+   <polyline points="0,0 196,66"/>
+  </object>
+  <object id="187" x="1202" y="952">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="10"/>
+    <property name="to" value="15"/>
+   </properties>
+   <polyline points="0,0 831,74"/>
+  </object>
+  <object id="247" x="720" y="673">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="2"/>
+    <property name="to" value="4"/>
+   </properties>
+   <polyline points="0,0 175,-36"/>
+  </object>
+  <object id="248" x="1020" y="941">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="8"/>
+    <property name="to" value="10"/>
+   </properties>
+   <polyline points="0,0 180,9"/>
+  </object>
+  <object id="252" x="1030" y="801">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="7"/>
+    <property name="to" value="9"/>
+   </properties>
+   <polyline points="0,0 223,-101"/>
+  </object>
+  <object id="253" x="1020" y="942">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="8"/>
+    <property name="to" value="7"/>
+   </properties>
+   <polyline points="0,0 7,-140"/>
+  </object>
+  <object id="256" x="1027" y="804">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="20"/>
+    <property name="to" value="7"/>
+   </properties>
+   <polyline points="0,0 165,57"/>
+  </object>
+  <object id="257" x="1193" y="866">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="20"/>
+    <property name="to" value="10"/>
+   </properties>
+   <polyline points="0,0 12,82"/>
+  </object>
+  <object id="258" x="604" y="728">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="0"/>
+    <property name="to" value="6"/>
+   </properties>
+   <polyline points="0,0 281,147"/>
+  </object>
+  <object id="259" x="1196" y="859">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="20"/>
+    <property name="to" value="9"/>
+   </properties>
+   <polyline points="0,0 60,-160"/>
+  </object>
+  <object id="265" x="1103" y="611">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="9"/>
+    <property name="to" value="21"/>
+   </properties>
+   <polyline points="0,0 151,89"/>
+  </object>
+  <object id="266" x="1103" y="609">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="21"/>
+    <property name="to" value="22"/>
+   </properties>
+   <polyline points="0,0 119,-173"/>
+  </object>
+  <object id="267" x="1222" y="438">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="22"/>
+    <property name="to" value="23"/>
+   </properties>
+   <polyline points="0,0 147,40"/>
+  </object>
+  <object id="268" x="1371" y="478">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="11"/>
+    <property name="to" value="23"/>
+   </properties>
+   <polyline points="0,0 79,152"/>
+  </object>
+  <object id="270" x="688" y="592">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="22"/>
+    <property name="to" value="3"/>
+   </properties>
+   <polyline points="0,0 531,-156"/>
+  </object>
+  <object id="271" x="1369" y="479">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="23"/>
+    <property name="to" value="12"/>
+   </properties>
+   <polyline points="0,0 305,-47"/>
+  </object>
+  <object id="272" x="1827" y="540">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="25"/>
+    <property name="to" value="14"/>
+   </properties>
+   <polyline points="0,0 200,286"/>
+  </object>
+  <object id="276" x="1451" y="630">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="11"/>
+    <property name="to" value="24"/>
+   </properties>
+   <polyline points="0,0 212,-96"/>
+  </object>
+  <object id="277" x="1669" y="539">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="24"/>
+    <property name="to" value="12"/>
+   </properties>
+   <polyline points="0,0 0.000301,-99"/>
+  </object>
+  <object id="278" x="1666" y="537">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="24"/>
+    <property name="to" value="25"/>
+   </properties>
+   <polyline points="0,0 159,10"/>
+  </object>
+  <object id="279" x="1826" y="541">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="25"/>
+    <property name="to" value="13"/>
+   </properties>
+   <polyline points="0,0 2,-106"/>
+  </object>
+  <object id="284" x="2031" y="830">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="15"/>
+    <property name="to" value="14"/>
+   </properties>
+   <polyline points="0,0 5,200"/>
+  </object>
+  <object id="285" x="2170" y="784">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="27"/>
+    <property name="to" value="16"/>
+   </properties>
+   <polyline points="0,0 110,83"/>
+  </object>
+  <object id="286" x="2282" y="866">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="16"/>
+    <property name="to" value="26"/>
+   </properties>
+   <polyline points="0,0 128,81"/>
+  </object>
+  <object id="287" x="2412" y="949">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="26"/>
+    <property name="to" value="19"/>
+   </properties>
+   <polyline points="0,0 173,96"/>
+  </object>
+  <object id="288" x="2035" y="1029">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="17"/>
+    <property name="to" value="15"/>
+   </properties>
+   <polyline points="0,0 205,-17"/>
+  </object>
+  <object id="289" x="2031" y="830">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="14"/>
+    <property name="to" value="27"/>
+   </properties>
+   <polyline points="0,0 138,-47"/>
+  </object>
+  <object id="290" x="2244" y="1013">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="17"/>
+    <property name="to" value="26"/>
+   </properties>
+   <polyline points="0,0 164,-62"/>
+  </object>
+  <object id="291" x="2413" y="949">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="26"/>
+    <property name="to" value="18"/>
+   </properties>
+   <polyline points="0,0 183,-67"/>
+  </object>
+  <object id="292" x="684" y="594">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="3"/>
+    <property name="to" value="2"/>
+   </properties>
+   <polyline points="0,0 35,82"/>
+  </object>
+  <object id="317" x="1451" y="633">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="11"/>
+    <property name="to" value="28"/>
+   </properties>
+   <polyline points="0,0 198,244"/>
+  </object>
+  <object id="320" x="1647" y="875">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="15"/>
+    <property name="to" value="28"/>
+   </properties>
+   <polyline points="0,0 387,153"/>
+  </object>
+  <object id="321" x="1203" y="952">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="10"/>
+    <property name="to" value="29"/>
+   </properties>
+   <polyline points="0,0 389,172"/>
+  </object>
+  <object id="322" x="1825" y="541">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="25"/>
+    <property name="to" value="27"/>
+   </properties>
+   <polyline points="0,0 346,245"/>
+  </object>
+  <object id="323" x="1828" y="436">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="13"/>
+    <property name="to" value="31"/>
+   </properties>
+   <polyline points="0,0 561,294"/>
+  </object>
+  <object id="324" x="2392" y="730">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="31"/>
+    <property name="to" value="18"/>
+   </properties>
+   <polyline points="0,0 209,156"/>
+  </object>
+  <object id="325" x="1826" y="541">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="25"/>
+    <property name="to" value="31"/>
+   </properties>
+   <polyline points="0,0 561,190"/>
+  </object>
+  <object id="326" x="2242" y="1016">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="17"/>
+    <property name="to" value="30"/>
+   </properties>
+   <polyline points="0,0 107,139"/>
+  </object>
+  <object id="327" x="2034" y="1031">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="15"/>
+    <property name="to" value="30"/>
+   </properties>
+   <polyline points="0,0 314,123"/>
+  </object>
+  <object id="328" x="2384" y="731">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="31"/>
+    <property name="to" value="26"/>
+   </properties>
+   <polyline points="0,0 29,221"/>
+  </object>
+  <object id="329" x="602" y="726">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="0"/>
+    <property name="to" value="32"/>
+   </properties>
+   <polyline points="0,0 78,334"/>
+  </object>
+  <object id="330" x="677" y="1060">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="32"/>
+    <property name="to" value="29"/>
+   </properties>
+   <polyline points="0,0 911,63"/>
+  </object>
+  <object id="331" x="1368" y="154">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="33"/>
+    <property name="to" value="12"/>
+   </properties>
+   <polyline points="0,0 302,279"/>
+  </object>
+  <object id="332" x="1367" y="153">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="33"/>
+    <property name="to" value="23"/>
+   </properties>
+   <polyline points="0,0 3,325"/>
+  </object>
+  <object id="333" x="677" y="1052">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="32"/>
+    <property name="to" value="6"/>
+   </properties>
+   <polyline points="0,0 210,-181"/>
+  </object>
+  <object id="334" x="680" y="1056">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="32"/>
+    <property name="to" value="8"/>
+   </properties>
+   <polyline points="0,0 341,-117"/>
+  </object>
+  <object id="335" x="679" y="1057">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="32"/>
+    <property name="to" value="10"/>
+   </properties>
+   <polyline points="0,0 525,-103"/>
+  </object>
+  <object id="336" x="684" y="591">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="3"/>
+    <property name="to" value="33"/>
+   </properties>
+   <polyline points="0,0 682,-438"/>
+  </object>
+  <object id="337" x="1223" y="434">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="33"/>
+    <property name="to" value="22"/>
+   </properties>
+   <polyline points="0,0 146,-280"/>
+  </object>
+  <object id="338" x="1028" y="798">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="21"/>
+    <property name="to" value="7"/>
+   </properties>
+   <polyline points="0,0 75,-194"/>
+  </object>
+  <object id="339" x="893" y="635">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="4"/>
+    <property name="to" value="21"/>
+   </properties>
+   <polyline points="0,0 213,-27"/>
+  </object>
+  <object id="340" x="894" y="641">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="4"/>
+    <property name="to" value="33"/>
+   </properties>
+   <polyline points="0,0 474,-485"/>
+  </object>
+  <object id="341" x="678" y="1056">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="32"/>
+    <property name="to" value="5"/>
+   </properties>
+   <polyline points="0,0 95,-286"/>
+  </object>
+  <object id="342" x="1644" y="870">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="55"/>
+    <property name="to" value="28"/>
+   </properties>
+   <polyline points="0,0 9,-174"/>
+  </object>
+  <object id="343" x="1652" y="699">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="25"/>
+    <property name="to" value="55"/>
+   </properties>
+   <polyline points="0,0 176,-164"/>
+  </object>
+  <object id="344" x="1650" y="875">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="28"/>
+    <property name="to" value="14"/>
+   </properties>
+   <polyline points="0,0 382,-46"/>
+  </object>
+  <object id="345" x="1455" y="923">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="54"/>
+    <property name="to" value="28"/>
+   </properties>
+   <polyline points="0,0 192,-51"/>
+  </object>
+  <object id="346" x="1589" y="1118">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="29"/>
+    <property name="to" value="28"/>
+   </properties>
+   <polyline points="0,0 57,-247"/>
+  </object>
+  <object id="347" x="1589" y="1121">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="29"/>
+    <property name="to" value="15"/>
+   </properties>
+   <polyline points="0,0 443,-93"/>
+  </object>
+  <object id="348" x="1589" y="1120">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="29"/>
+    <property name="to" value="14"/>
+   </properties>
+   <polyline points="0,0 438,-291"/>
+  </object>
+  <object id="349" x="2169" y="784">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="27"/>
+    <property name="to" value="31"/>
+   </properties>
+   <polyline points="0,0 218,-57"/>
+  </object>
+  <object id="350" x="2283" y="864">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="16"/>
+    <property name="to" value="31"/>
+   </properties>
+   <polyline points="0,0 106,-137"/>
+  </object>
+  <object id="351" x="2350" y="1151">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="30"/>
+    <property name="to" value="26"/>
+   </properties>
+   <polyline points="0,0 63,-201"/>
+  </object>
+  <object id="352" x="2348" y="1151">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="30"/>
+    <property name="to" value="19"/>
+   </properties>
+   <polyline points="0,0 243,-107"/>
+  </object>
+  <object id="451" x="566" y="1120">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="39"/>
+    <property name="to" value="0"/>
+   </properties>
+   <polyline points="0,0 36,-395"/>
+  </object>
+  <object id="452" x="572" y="1120">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="39"/>
+    <property name="to" value="32"/>
+   </properties>
+   <polyline points="0,0 106,-64"/>
+  </object>
+  <object id="442" x="433" y="604">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="37"/>
+    <property name="to" value="1"/>
+   </properties>
+   <polyline points="0,0 70,-6"/>
+  </object>
+  <object id="461" x="1022" y="942">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="8"/>
+    <property name="to" value="42"/>
+   </properties>
+   <polyline points="0,0 186,224"/>
+  </object>
+  <object id="453" x="677" y="1057">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="40"/>
+    <property name="to" value="32"/>
+   </properties>
+   <polyline points="0,0 26,106"/>
+  </object>
+  <object id="458" x="1000" y="1119">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="41"/>
+    <property name="to" value="10"/>
+   </properties>
+   <polyline points="0,0 201,-169"/>
+  </object>
+  <object id="459" x="994" y="1120">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="41"/>
+    <property name="to" value="42"/>
+   </properties>
+   <polyline points="0,0 222,47"/>
+  </object>
+  <object id="446" x="448" y="896">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="38"/>
+    <property name="to" value="32"/>
+   </properties>
+   <polyline points="0,0 230,160"/>
+  </object>
+  <object id="456" x="704" y="1162">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="40"/>
+    <property name="to" value="41"/>
+   </properties>
+   <polyline points="0,0 292,-42"/>
+  </object>
+  <object id="447" x="449" y="894">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="38"/>
+    <property name="to" value="5"/>
+   </properties>
+   <polyline points="0,0 322,-127"/>
+  </object>
+  <object id="445" x="450" y="891">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="38"/>
+    <property name="to" value="0"/>
+   </properties>
+   <polyline points="0,0 153,-165"/>
+  </object>
+  <object id="438" x="738" y="442">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="35"/>
+    <property name="to" value="36"/>
+   </properties>
+   <polyline points="0,0 199,-59"/>
+  </object>
+  <object id="444" x="432" y="604">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="37"/>
+    <property name="to" value="38"/>
+   </properties>
+   <polyline points="0,0 16,288"/>
+  </object>
+  <object id="449" x="449" y="894">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="38"/>
+    <property name="to" value="39"/>
+   </properties>
+   <polyline points="0,0 120,226"/>
+  </object>
+  <object id="455" x="709" y="1160">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="40"/>
+    <property name="to" value="8"/>
+   </properties>
+   <polyline points="0,0 311,-219"/>
+  </object>
+  <object id="440" x="685" y="591">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="36"/>
+    <property name="to" value="3"/>
+   </properties>
+   <polyline points="0,0 55,-150"/>
+  </object>
+  <object id="433" x="940" y="381">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="35"/>
+    <property name="to" value="34"/>
+   </properties>
+   <polyline points="0,0 136,-123"/>
+  </object>
+  <object id="448" x="447" y="893">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="38"/>
+    <property name="to" value="6"/>
+   </properties>
+   <polyline points="0,0 435,-23"/>
+  </object>
+  <object id="439" x="889" y="638">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="35"/>
+    <property name="to" value="4"/>
+   </properties>
+   <polyline points="0,0 48,-254"/>
+  </object>
+  <object id="437" x="738" y="440">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="36"/>
+    <property name="to" value="21"/>
+   </properties>
+   <polyline points="0,0 363,172"/>
+  </object>
+  <object id="441" x="508" y="600">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="36"/>
+    <property name="to" value="1"/>
+   </properties>
+   <polyline points="0,0 229,-161"/>
+  </object>
+  <object id="460" x="1203" y="948">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="10"/>
+    <property name="to" value="42"/>
+   </properties>
+   <polyline points="0,0 10,222"/>
+  </object>
+  <object id="443" x="435" y="606">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="37"/>
+    <property name="to" value="0"/>
+   </properties>
+   <polyline points="0,0 165,119"/>
+  </object>
+  <object id="454" x="704" y="1160">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="40"/>
+    <property name="to" value="6"/>
+   </properties>
+   <polyline points="0,0 182,-289"/>
+  </object>
+  <object id="435" x="938.879" y="384.399" rotation="-0.16569">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="35"/>
+    <property name="to" value="22"/>
+   </properties>
+   <polyline points="0,0 279.97,52.4106"/>
+  </object>
+  <object id="432" x="1078" y="261">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="33"/>
+    <property name="to" value="34"/>
+   </properties>
+   <polyline points="0,0 288,-109"/>
+  </object>
+  <object id="434" x="1077" y="263">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="34"/>
+    <property name="to" value="22"/>
+   </properties>
+   <polyline points="0,0 144,170"/>
+  </object>
+  <object id="436" x="939" y="382">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="35"/>
+    <property name="to" value="21"/>
+   </properties>
+   <polyline points="0,0 163,229"/>
+  </object>
+  <object id="457" x="997" y="1121">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="41"/>
+    <property name="to" value="8"/>
+   </properties>
+   <polyline points="0,0 24,-180"/>
+  </object>
+  <object id="450" x="567" y="1117">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="39"/>
+    <property name="to" value="40"/>
+   </properties>
+   <polyline points="0,0 138,43"/>
+  </object>
+  <object id="462" x="1217" y="1170">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="42"/>
+    <property name="to" value="29"/>
+   </properties>
+   <polyline points="0,0 375,-48"/>
+  </object>
+  <object id="482" x="2391" y="731">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="49"/>
+    <property name="to" value="31"/>
+   </properties>
+   <polyline points="0,0 150,-51"/>
+  </object>
+  <object id="487" x="2160" y="498">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="50"/>
+    <property name="to" value="27"/>
+   </properties>
+   <polyline points="0,0 9,283"/>
+  </object>
+  <object id="476" x="2599" y="885">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="48"/>
+    <property name="to" value="18"/>
+   </properties>
+   <polyline points="0,0 250,-41"/>
+  </object>
+  <object id="488" x="2031" y="829">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="50"/>
+    <property name="to" value="14"/>
+   </properties>
+   <polyline points="0,0 128,-331"/>
+  </object>
+  <object id="474" x="2587" y="1045">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="47"/>
+    <property name="to" value="19"/>
+   </properties>
+   <polyline points="0,0 192,143"/>
+  </object>
+  <object id="480" x="2543" y="678">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="49"/>
+    <property name="to" value="18"/>
+   </properties>
+   <polyline points="0,0 56,203"/>
+  </object>
+  <object id="471" x="2348" y="1153">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="46"/>
+    <property name="to" value="30"/>
+   </properties>
+   <polyline points="0,0 142,87"/>
+  </object>
+  <object id="466" x="1645" y="876">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="44"/>
+    <property name="to" value="28"/>
+   </properties>
+   <polyline points="0,0 188,274"/>
+  </object>
+  <object id="498" x="1223" y="436">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="52"/>
+    <property name="to" value="22"/>
+   </properties>
+   <polyline points="0,0 305,-262"/>
+  </object>
+  <object id="491" x="1828" y="439">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="51"/>
+    <property name="to" value="13"/>
+   </properties>
+   <polyline points="0,0 42,-91"/>
+  </object>
+  <object id="489" x="1647" y="872">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="50"/>
+    <property name="to" value="28"/>
+   </properties>
+   <polyline points="0,0 514,-376"/>
+  </object>
+  <object id="499" x="1449" y="626">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="52"/>
+    <property name="to" value="11"/>
+   </properties>
+   <polyline points="0,0 76,-453"/>
+  </object>
+  <object id="492" x="1870" y="346">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="51"/>
+    <property name="to" value="50"/>
+   </properties>
+   <polyline points="0,0 288,153"/>
+  </object>
+  <object id="495" x="1523" y="175">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="51"/>
+    <property name="to" value="52"/>
+   </properties>
+   <polyline points="0,0 347,171"/>
+  </object>
+  <object id="475" x="2588" y="1045">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="19"/>
+    <property name="to" value="48"/>
+   </properties>
+   <polyline points="0,0 261,-200"/>
+  </object>
+  <object id="467" x="1833" y="1149">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="15"/>
+    <property name="to" value="44"/>
+   </properties>
+   <polyline points="0,0 202,-120"/>
+  </object>
+  <object id="483" x="2161" y="498">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="50"/>
+    <property name="to" value="49"/>
+   </properties>
+   <polyline points="0,0 376,181"/>
+  </object>
+  <object id="493" x="1668" y="434">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="51"/>
+    <property name="to" value="12"/>
+   </properties>
+   <polyline points="0,0 203,-88"/>
+  </object>
+  <object id="494" x="1367" y="151">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="33"/>
+    <property name="to" value="52"/>
+   </properties>
+   <polyline points="0,0 158,24"/>
+  </object>
+  <object id="470" x="2350" y="1156">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="45"/>
+    <property name="to" value="30"/>
+   </properties>
+   <polyline points="0,0 54,128"/>
+  </object>
+  <object id="479" x="2600" y="883">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="47"/>
+    <property name="to" value="18"/>
+   </properties>
+   <polyline points="0,0 180,305"/>
+  </object>
+  <object id="497" x="1371" y="476">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="52"/>
+    <property name="to" value="23"/>
+   </properties>
+   <polyline points="0,0 157,-300"/>
+  </object>
+  <object id="464" x="1560" y="1264">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="43"/>
+    <property name="to" value="29"/>
+   </properties>
+   <polyline points="0,0 32,-145"/>
+  </object>
+  <object id="473" x="2492" y="1241">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="46"/>
+    <property name="to" value="19"/>
+   </properties>
+   <polyline points="0,0 94,-198"/>
+  </object>
+  <object id="472" x="2402" y="1287">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="45"/>
+    <property name="to" value="46"/>
+   </properties>
+   <polyline points="0,0 87,-51"/>
+  </object>
+  <object id="465" x="1588" y="1121">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="29"/>
+    <property name="to" value="44"/>
+   </properties>
+   <polyline points="0,0 241,26"/>
+  </object>
+  <object id="463" x="1562" y="1265">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="43"/>
+    <property name="to" value="44"/>
+   </properties>
+   <polyline points="0,0 268,-117"/>
+  </object>
+  <object id="496" x="1526" y="173">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="52"/>
+    <property name="to" value="12"/>
+   </properties>
+   <polyline points="0,0 145,258"/>
+  </object>
+  <object id="486" x="2159" y="498">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="50"/>
+    <property name="to" value="31"/>
+   </properties>
+   <polyline points="0,0 229,233"/>
+  </object>
+  <object id="469" x="1834" y="1148">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="44"/>
+    <property name="to" value="30"/>
+   </properties>
+   <polyline points="0,0 513,3"/>
+  </object>
+  <object id="485" x="2412" y="941">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="26"/>
+    <property name="to" value="49"/>
+   </properties>
+   <polyline points="0,0 131,-260"/>
+  </object>
+  <object id="477" x="2780" y="1186">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="47"/>
+    <property name="to" value="48"/>
+   </properties>
+   <polyline points="0,0 70,-342"/>
+  </object>
+  <object id="481" x="2543" y="681">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="49"/>
+    <property name="to" value="48"/>
+   </properties>
+   <polyline points="0,0 304,165"/>
+  </object>
+  <object id="490" x="1827" y="540">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="25"/>
+    <property name="to" value="50"/>
+   </properties>
+   <polyline points="0,0 337,-43"/>
+  </object>
+  <object id="503" x="1013" y="675">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="53"/>
+    <property name="to" value="7"/>
+   </properties>
+   <polyline points="0,0 14,124"/>
+  </object>
+  <object id="502" x="892" y="637">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="4"/>
+    <property name="to" value="53"/>
+   </properties>
+   <polyline points="0,0 119,35"/>
+  </object>
+  <object id="505" x="1106" y="614">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="21"/>
+    <property name="to" value="20"/>
+   </properties>
+   <polyline points="0,0 84,244"/>
+  </object>
+  <object id="501" x="1015" y="673">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="53"/>
+    <property name="to" value="21"/>
+   </properties>
+   <polyline points="0,0 91,-63"/>
+  </object>
+  <object id="504" x="1017" y="677">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="53"/>
+    <property name="to" value="9"/>
+   </properties>
+   <polyline points="0,0 235,25"/>
+  </object>
+  <object id="521" x="1207" y="949">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="54"/>
+    <property name="to" value="10"/>
+   </properties>
+   <polyline points="0,0 247,-29"/>
+  </object>
+  <object id="522" x="1455" y="924">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="54"/>
+    <property name="to" value="29"/>
+   </properties>
+   <polyline points="0,0 133,193"/>
+  </object>
+  <object id="525" x="1653" y="699">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="55"/>
+    <property name="to" value="24"/>
+   </properties>
+   <polyline points="0,0 11,-161"/>
+  </object>
+  <object id="526" x="1655" y="700">
+   <properties>
+    <property name="flag" value="0"/>
+    <property name="from" value="14"/>
+    <property name="to" value="55"/>
+   </properties>
+   <polyline points="0,0 377,131"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="nodes">
+  <object id="193" name="0" x="603" y="727">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="0"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="194" name="5" x="774" y="770">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="5"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="195" name="6" x="881" y="872">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="6"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="196" name="7" x="1026" y="802">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="7"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="197" name="4" x="891" y="633">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="4"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="198" name="3" x="684" y="592">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="3"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="199" name="9" x="1251" y="701">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="9"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="200" name="8" x="1020" y="943">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="8"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="201" name="10" x="1203" y="949">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="10"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="202" name="11" x="1448" y="631">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="11"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="203" name="12" x="1671" y="433">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="12"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="204" name="13" x="1827" y="436">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="13"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="205" name="14" x="2030" y="831">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="14"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="206" name="16" x="2283" y="866">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="16"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="207" name="17" x="2241" y="1014">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="17"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="208" name="15" x="2035" y="1029">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="15"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="209" name="19" x="2588" y="1045">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="19"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="210" name="18" x="2599" y="884">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="18"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="211" name="1" x="506" y="599">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="1"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="212" name="2" x="718" y="676">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="2"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="260" name="21" x="1103" y="611">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="21"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="261" name="22" x="1219" y="434">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="22"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="262" name="23" x="1369" y="477">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="23"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="273" name="24" x="1663" y="538">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="24"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="274" name="25" x="1824" y="540">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="25"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="275" name="26" x="2412" y="950">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="26"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="280" name="27" x="2170" y="786">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="27"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="293" name="20" x="1194" y="860">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="20"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="311" name="28" x="1646" y="875">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="28"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="312" name="29" x="1590" y="1123">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="29"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="313" name="30" x="2348" y="1154">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="30"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="314" name="31" x="2390" y="731">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="31"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="315" name="32" x="678" y="1059">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="32"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="316" name="33" x="1370" y="154">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="33"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="426" name="52" x="1528" y="174">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="52"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="416" name="44" x="1832" y="1149">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="44"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="415" name="43" x="1564" y="1267">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="43"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="414" name="42" x="1216" y="1171">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="42"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="413" name="41" x="998" y="1123">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="41"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="412" name="40" x="705" y="1162">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="40"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="411" name="39" x="567" y="1121">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="39"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="410" name="38" x="447" y="894">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="38"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="408" name="37" x="431" y="602">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="37"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="407" name="36" x="739" y="442">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="36"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="406" name="35" x="937" y="383">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="35"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="405" name="34" x="1077" y="260">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="34"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="425" name="51" x="1872" y="347">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="51"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="424" name="50" x="2162" y="499">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="50"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="427" name="45" x="2405" y="1288">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="45"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="428" name="46" x="2490" y="1241">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="46"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="429" name="47" x="2780" y="1189">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="47"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="430" name="48" x="2851" y="846">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="48"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="431" name="49" x="2543" y="680">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="49"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="500" name="53" x="1012" y="675">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="53"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="520" name="54" x="1454" y="922">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="54"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="524" name="55" x="1653" y="701">
+   <properties>
+    <property name="extra" value="0"/>
+    <property name="index" value="55"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="triggers">
+  <object id="786" x="451" y="1045" width="200" height="148">
+   <properties>
+    <property name="team" value="1"/>
+   </properties>
+  </object>
+  <object id="789" x="2319" y="1059" width="231" height="157">
+   <properties>
+    <property name="team" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

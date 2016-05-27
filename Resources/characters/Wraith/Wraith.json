@@ -1,0 +1,43 @@
+{
+  "name": "Wraith",
+  "directions": 8,
+  "actions": {
+    "Neutral": 
+    { "frameSize": 12, "marginX": 0, "marginY": 50 },
+    "Death": 
+    { "frameSize": 19, "marginX": 0, "marginY": 51  },
+    "Attack1": 
+    { "frameSize": 18, "marginX": 0, "marginY": 45 },
+    "Casting": 
+    { "frameSize": 16, "marginX": 0, "marginY": 53 },
+    "GetHit": 
+    { "frameSize": 8, "marginX": 0, "marginY": 47 },
+    "Walk": 
+    { "frameSize": 14, "marginX": 0, "marginY": 55 },
+    "Dead": 
+    { "frameSize": 1,  "marginX": 0, "marginY": 0  }
+  },
+		"data":
+	{
+		"hp" : 280,
+		"mp" : 100,
+		"damage" : 25,
+		"mdamage" : 10,
+		"defence" : 2,
+		"mdefence" : 0,
+		"attack_range" : 270,
+		"view_range" : 300,
+		"move_speed" : 150,
+		"attack_speed" : 0,
+		"gold_worth" : 30,
+		"exp_worth" : 20
+	},
+		"strategy": 
+	{
+		"attack" : "IceSkill",
+		"skill1" : "",
+		"skill2" : "",
+		"skill3" : "",
+		"skill4" : ""
+	}
+}

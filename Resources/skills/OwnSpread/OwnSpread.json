@@ -1,0 +1,27 @@
+{
+  "name": "OwnSpread",
+  "data": {
+    "type": "DirectSpread",
+    "damage": 10,
+    "mana": 10,
+    "radius": 50,
+    "speed": 30,
+
+    "emitter_flag": false,
+    "explosion_flag": true,
+    
+    "period": 10,
+    "splash_radius": 400,
+    "survive_time": 5,
+
+    "emitter_emission_rate": 0,
+    "emitter_duration": 0,
+    "emitter_scale": 0,
+    "emitter_speed": 0,
+
+    "explosion_emission_rate": 1000,
+    "explosion_duration": 0.05,
+    "explosion_scale": 0.3,
+    "explosion_speed": 700
+  }
+}

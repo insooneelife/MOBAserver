@@ -1,0 +1,14 @@
+{
+	"name": "bow_1",
+		"data": 
+	{
+		"max_hp" : 0,
+		"max_mp" : 0,
+		"damage" : 30,
+		"mdamage" : 10,
+		"defence" : 0,
+		"mdefence" : 0,
+		"move_speed" : 0,
+		"price" : 1300
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"name": "belt_2",
+		"data": 
+	{
+		"max_hp" : 380,
+		"max_mp" : 0,
+		"damage" : 0,
+		"mdamage" : 0,
+		"defence" : 10,
+		"mdefence" : 10,
+		"move_speed" : 0,
+		"price" : 1000
+	}
+}

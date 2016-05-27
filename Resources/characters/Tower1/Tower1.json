@@ -1,0 +1,39 @@
+{
+  "name": "Tower1",
+  "directions": 8,
+  "actions": {
+    "Neutral": 
+    { "frameSize": 8, "marginX": 0, "marginY": 20  },
+    "Death": 
+    { "frameSize": 23, "marginX": 0, "marginY": 20  },
+    "Attack1": 
+    { "frameSize": 15, "marginX": 0, "marginY": 28 },
+    "Casting": 
+    { "frameSize": 15, "marginX": 0, "marginY": 38 },
+    "Dead": 
+    { "frameSize": 1,  "marginX": 0, "marginY": 0  }
+  },
+		"data":
+	{
+		"hp" : 1000,
+		"mp" : 100,
+		"damage" : 150,
+		"mdamage" : 10,
+		"defence" : 10,
+		"mdefence" : 0,
+		"attack_range" : 450,
+		"view_range" : 550,
+		"move_speed" : 0,
+		"attack_speed" : 0,
+		"gold_worth" : 250,
+		"exp_worth" : 250
+	},
+		"strategy": 
+	{
+		"attack" : "Arrow",
+		"skill1" : "",
+		"skill2" : "",
+		"skill3" : "",
+		"skill4" : ""
+	}
+}

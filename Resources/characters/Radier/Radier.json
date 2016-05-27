@@ -1,0 +1,43 @@
+{
+  "name": "Radier",
+  "directions": 8,
+  "actions": {
+    "Neutral": 
+    { "frameSize": 15, "marginX": 0, "marginY": 41 },
+    "Death": 
+    { "frameSize": 18, "marginX": 0, "marginY": 28  },
+    "Attack1": 
+    { "frameSize": 15, "marginX": 0, "marginY": 28 },
+    "Casting": 
+    { "frameSize": 15, "marginX": 0, "marginY": 28 },
+    "GetHit": 
+    { "frameSize": 10, "marginX": 0, "marginY": 43 },
+    "Walk": 
+    { "frameSize": 29, "marginX": 0, "marginY": 40 },
+    "Dead": 
+    { "frameSize": 1,  "marginX": 0, "marginY": 0  }
+  },
+		"data":
+	{
+		"hp" : 800,
+		"mp" : 100,
+		"damage" : 40,
+		"mdamage" : 10,
+		"defence" : 10,
+		"mdefence" : 0,
+		"attack_range" : 40,
+		"view_range" : 250,
+		"move_speed" : 150,
+		"attack_speed" : 0,
+		"gold_worth" : 40,
+		"exp_worth" : 120
+	},
+		"strategy": 
+	{
+		"attack" : "Melee",
+		"skill1" : "",
+		"skill2" : "",
+		"skill3" : "",
+		"skill4" : ""
+	}
+}
